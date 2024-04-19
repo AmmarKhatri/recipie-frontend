@@ -66,6 +66,7 @@ export default function Menu(){
             <div className=" ml-10 mt-10 font-bold text-3xl">Hello! {user.email}</div> 
             <div className=" ml-10 mt-10 font-bold text-3xl">Logged in as: {user.role}</div>
             <div className=" ml-10 mt-10 font-bold text-3xl">Menu</div>
+            <div className=" flex "></div>
             <div className="mx-auto">{
                 recipies.length != 0 ? <div>
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
